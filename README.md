@@ -1,85 +1,63 @@
 # Erriez Arduino libraries and sketches
 
-This is Erriez Arduino libraries and sketches repository.
+Erriez Arduino libraries and sketches contains examples and optimized libraries, tested on a various amount of hardware.
 
-All libraries are built and tested from scratch without dependencies on 
-third-party libraries.
+### [BH1750](https://github.com/Erriez/ErriezBH1750)  [![Build Status](https://travis-ci.org/Erriez/ErriezBH1750.svg?branch=master)](https://travis-ci.org/Erriez/ErriezBH1750)
 
-The libraries and sketches can be build with CLion by using CMake as well as
-the Arduino IDE.
+I2C high-precision light sensor.
 
-## Sketches
-
-### Blink
-[Blink sketch](https://github.com/Erriez/ArduinoLibrariesAndSketches/tree/master/Blink)
-
-### PIR (Passive Infrared Sensor) movement sketch
-[PIR  movement sensor sketch](https://github.com/Erriez/ArduinoLibrariesAndSketches/tree/master/PIR)
+[![BH1750](https://raw.githubusercontent.com/Erriez/ErriezBH1750/master/extras/BH1750.png)](https://github.com/Erriez/ErriezBH1750)
 
 
-## Devices
+### [DHT22](https://github.com/Erriez/ErriezDHT22)  [![Build Status](https://travis-ci.org/Erriez/ErriezDHT22.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDHT22)
 
-### Rotary
-[3-speed rotary library](https://github.com/Erriez/ArduinoLibraryRotary)
+One-wire temperature and humidity sensor with high precision.
 
-### TM1836 LED driver
-[TM1638 LED and button driver library](https://github.com/Erriez/ArduinoLibraryTM1638)
-
-### JY-MCU JY-LKM1638
-[TM1836 board with 8x 7-segment display, 8x dual color LED, 8x switches library](https://github.com/Erriez/ArduinoLibraryLKM1638)
-
-### NRF24L01
-2.4GHz wireless transceiver
-
-[NRF24L01 API library](https://github.com/Erriez/ArduinoLibraryNRF24L01Iface)  
-[NRF24L01 debug library](https://github.com/Erriez/ArduinoLibraryNRF24L01Debug)
+[![DHT22](https://raw.githubusercontent.com/Erriez/ErriezDHT22/master/extras/AM2302_DHT22_sensor.png)](https://github.com/Erriez/ErriezDHT22)
 
 
-## Diagnostics
+### [LCD Keypad Shield](https://github.com/Erriez/ErriezLCDKeypadShield)  [![Build Status](https://travis-ci.org/Erriez/ErriezLCDKeypadShield.svg?branch=master)](https://travis-ci.org/Erriez/ErriezLCDKeypadShield)
 
-### Printf
-[printf() library](https://github.com/Erriez/ArduinoLibraryPrintf)
+2x16 character and 5 buttons LCD shield for Arduino.
 
-### Memory usage
-[Memory usage library](https://github.com/Erriez/ArduinoLibraryMemoryUsage)
-
-* Print memory usage on the serial console 
-* Get stack and heap size
-* Get .data and .bss sections size
-
-### Timestamp
-[Timestamp measuring library](https://github.com/Erriez/ArduinoLibraryTimestamp)
+[![LCDKeypadShield](https://raw.githubusercontent.com/Erriez/ErriezLCDKeypadShield/master/extras/LCDKeypadShield_board.png)](https://github.com/Erriez/ErriezLCDKeypadShield)
 
 
-## Installation
-Every Arduino library must be located in a separate GitHub repository which is
-a limitation in the Arduino IDE. The easiest way to install the libraries is 
-to install a Git client and clone all the projects as follows:
+### [Rotary Encoder full step](https://github.com/Erriez/ErriezRotaryEncoderFullStep)  [![Build Status](https://travis-ci.org/Erriez/ErriezRotaryEncoderFullStep.svg?branch=master)](https://travis-ci.org/Erriez/ErriezRotaryEncoderFullStep)
 
-### Install Git client for Windows  
-Download [Git client for Windows](https://git-scm.com/download/win)
+3 speed full step Rotary Encoder with button.
 
-### Install Git client for Linux
-```bash
-sudo apt-get install git
-```
+[![Rotary Encoder full step](https://raw.githubusercontent.com/Erriez/ErriezRotaryEncoderFullStep/master/extras/RotaryEncoder.png)](https://github.com/Erriez/ErriezRotaryEncoderFullStep)
 
-### Install libraries
-Open a command prompt and enter the following commands:
-```bash
-# Windows:
-cd %USERPROFILE%\Documents\Arduino\libraries
-  
-# Linux:
-cd ~/Arduino/libraries
-  
-# All OSes: 
-git clone https://github.com/Erriez/ArduinoLibraryLKM1638.git
-git clone https://github.com/Erriez/ArduinoLibraryTM1638.git
-git clone https://github.com/Erriez/ArduinoLibraryMemoryUsage.git
-git clone https://github.com/Erriez/ArduinoLibraryNRF24L01Iface.git
-git clone https://github.com/Erriez/ArduinoLibraryNRF24L01Debug.git
-git clone https://github.com/Erriez/ArduinoLibraryRotary.git
-git clone https://github.com/Erriez/ArduinoLibraryPrintf.git
-git clone https://github.com/Erriez/ArduinoLibraryTimestamp.git
-``` 
+
+### [Rotary Encoder half step](https://github.com/Erriez/ErriezRotaryEncoderHalfStep)  [![Build Status](https://travis-ci.org/Erriez/ErriezRotaryEncoderHalfStep.svg?branch=master)](https://travis-ci.org/Erriez/ErriezRotaryEncoderHalfStep)
+
+3 speed half step Rotary Encoder.
+
+[![Rotary Encoder half step](https://raw.githubusercontent.com/Erriez/ErriezRotaryEncoderHalfStep/master/extras/RotaryEncoder.png)](https://github.com/Erriez/ErriezRotaryEncoderHalfStep)
+
+
+### [Timestamp](https://github.com/Erriez/ErriezTimestamp)  [![Build Status](https://travis-ci.org/Erriez/ErriezTimestamp.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTimestamp)
+
+Timestamp library to measure execution duration, useful for benchmarks.
+
+[![Timestamp](https://raw.githubusercontent.com/Erriez/ErriezTimestamp/master/extras/timestamp.png)](https://github.com/Erriez/ErriezTimestamp)
+
+
+### [TM1637](https://github.com/Erriez/ErriezTM1637)  [![Build Status](https://travis-ci.org/Erriez/ErriezTM1637.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTM1637)
+
+2-wire 6x8 LED's and 8x2 key-scan controller.
+
+[![TM1637](https://raw.githubusercontent.com/Erriez/ErriezTM1637/master/extras/TM1637_pins.jpg)](https://github.com/Erriez/ErriezTM1637)
+
+
+### [TM1638](https://github.com/Erriez/ErriezTM1638)  [![Build Status](https://travis-ci.org/Erriez/ErriezTM1638.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTM1638)
+
+3-wire 10x8 LED's and 8x3 key-scan controller.
+
+[![TM1638](https://raw.githubusercontent.com/Erriez/ErriezTM1638/master/extras/TM1638_pins.jpg)](https://github.com/Erriez/ErriezTM1638)
+
+
+## Library installation
+* [Windows](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki/Arduino-Library-installation-Windows)
+* [Linux](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki/Arduino-Library-installation-Linux)

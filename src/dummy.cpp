@@ -22,20 +22,4 @@
  * SOFTWARE.
  */
 
-/* PIR (Passive Infrared Sensor) movement sensor example
- * https://github.com/Erriez/ArduinoLibrariesAndSketches
- */
-
-// Connect the PIR pin to an Arduino DIGITAL pin
-#define PIR_PIN   2
-
-void setup()
-{
-  pinMode(PIR_PIN, INPUT_PULLUP);
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-void loop()
-{
-  digitalWrite(LED_BUILTIN, digitalRead(PIR_PIN));
-}
+// .cpp/.h files are needed to show up in Arduino IDE Examples menu.
