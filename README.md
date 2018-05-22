@@ -23,6 +23,13 @@ One-wire temperature and humidity sensor with high precision.
 [![LCDKeypadShield](https://raw.githubusercontent.com/Erriez/ErriezLCDKeypadShield/master/extras/LCDKeypadShield_board.png)](https://github.com/Erriez/ErriezLCDKeypadShield)
 
 
+### [LM35](https://github.com/Erriez/ErriezLM35)  [![Build Status](https://travis-ci.org/Erriez/ErriezLM35.svg?branch=master)](https://travis-ci.org/Erriez/ErriezLM35)
+
+LM35 analog temperature sensor library for Arduino.
+
+[![LM35](https://raw.githubusercontent.com/Erriez/ErriezLM35/master/extras/LM35_pins.png)](https://github.com/Erriez/ErriezLM35)
+
+
 ### [RobotDyn Keypad 3x4 with analog output](https://github.com/Erriez/ErriezRotaryEncoderFullStep)  [![Build Status](https://travis-ci.org/Erriez/ErriezRobotDynKeypad3x4Analog.svg?branch=master)](https://travis-ci.org/ErriezRobotDynKeypad3x4Analog)
 
 RobotDyn Keypad 3x4 with analog output library for Arduino.
