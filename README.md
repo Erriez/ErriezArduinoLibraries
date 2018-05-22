@@ -23,6 +23,13 @@ One-wire temperature and humidity sensor with high precision.
 [![LCDKeypadShield](https://raw.githubusercontent.com/Erriez/ErriezLCDKeypadShield/master/extras/LCDKeypadShield_board.png)](https://github.com/Erriez/ErriezLCDKeypadShield)
 
 
+### [RobotDyn Keypad 3x4 with analog output](https://github.com/Erriez/ErriezRotaryEncoderFullStep)  [![Build Status](https://travis-ci.org/Erriez/ErriezRobotDynKeypad3x4Analog.svg?branch=master)](https://travis-ci.org/ErriezRobotDynKeypad3x4Analog)
+
+RobotDyn Keypad 3x4 with analog output library for Arduino.
+
+[![RobotDyn Keypad 3x4 Analog](https://raw.githubusercontent.com/Erriez/ErriezRobotDynKeypad3x4Analog/master/extras/RobotDynKeypad3x4Analog.png)](https://github.com/Erriez/ErriezRotaryEncoderFullStep)
+
+
 ### [Rotary Encoder full step](https://github.com/Erriez/ErriezRotaryEncoderFullStep)  [![Build Status](https://travis-ci.org/Erriez/ErriezRotaryEncoderFullStep.svg?branch=master)](https://travis-ci.org/Erriez/ErriezRotaryEncoderFullStep)
 
 3 speed full step Rotary Encoder with button.
