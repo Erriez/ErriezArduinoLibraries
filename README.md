@@ -72,6 +72,13 @@ Timestamp library to measure execution duration, useful for benchmarks.
 [![TM1638](https://raw.githubusercontent.com/Erriez/ErriezTM1638/master/extras/TM1638_pins.jpg)](https://github.com/Erriez/ErriezTM1638)
 
 
+### [JY-MCU JY-LKM1638 board](https://github.com/Erriez/ErriezLKM1638)  [![Build Status](https://travis-ci.org/Erriez/ErriezLKM1638.svg?branch=master)](https://travis-ci.org/Erriez/ErriezLKM1638)
+
+8 digits, 8 dual color LED's and 8 switches JY-MCU JY-LKM1638 board with TM1638 chip library for Arduino.
+
+[![JY-MCU JY-LKM1638 board](https://raw.githubusercontent.com/Erriez/ErriezLKM1638/master/extras/LKM1638_board.jpg)](https://github.com/Erriez/ErriezLKM1638)
+
+
 ## Library installation
 * [Windows](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki/Arduino-Library-installation-Windows)
 * [Linux](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki/Arduino-Library-installation-Linux)
