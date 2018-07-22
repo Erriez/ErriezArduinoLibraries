@@ -51,6 +51,13 @@ RobotDyn Keypad 3x4 with analog output library for Arduino.
 [![Rotary Encoder half step](https://raw.githubusercontent.com/Erriez/ErriezRotaryEncoderHalfStep/master/extras/RotaryEncoder.png)](https://github.com/Erriez/ErriezRotaryEncoderHalfStep)
 
 
+### [Serial Terminal](https://github.com/Erriez/ErriezSerialTerminal)  [![Build Status](https://travis-ci.org/Erriez/ErriezSerialTerminal.svg?branch=master)](https://travis-ci.org/Erriez/ErriezSerialTerminal)
+
+A universal Serial Terminal library for Arduino to parse ASCII commands and arguments.
+
+[![Serial Terminal](https://raw.githubusercontent.com/Erriez/ErriezSerialTerminal/master/extras/ScreenshotSerialTerminal.png)](https://github.com/Erriez/ErriezSerial)
+
+
 ### [Timestamp](https://github.com/Erriez/ErriezTimestamp)  [![Build Status](https://travis-ci.org/Erriez/ErriezTimestamp.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTimestamp)
 
 Timestamp library to measure execution duration, useful for benchmarks.
