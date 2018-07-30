@@ -60,7 +60,7 @@ One-wire temperature and humidity sensor with high precision.
 
 DS1302 inaccurate RTC (Real Time Clock).
 
-[![DS1302 RTC (Real Time Clock)](https://raw.githubusercontent.com/Erriez/ErriezD1302/master/extras/DS1302.png)](https://github.com/Erriez/ErriezDS1302)
+[![DS1302 RTC (Real Time Clock)](https://raw.githubusercontent.com/Erriez/ErriezDS1302/master/extras/DS1302.png)](https://github.com/Erriez/ErriezDS1302)
 
 
 ### [DS3231 high accurate I2C RTC (Real Time Clock)](https://github.com/Erriez/ErriezDS3231)  [![Build Status](https://travis-ci.org/Erriez/ErriezDS3231.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDS3231)
