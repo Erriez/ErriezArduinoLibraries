@@ -22,8 +22,11 @@
  * SOFTWARE.
  */
 
-/* DS1307 example
- * https://github.com/Erriez/ArduinoLibrariesAndSketches
+/*!
+ * \file DS1307
+ * \brief DS1307 I2C RTC example
+ * \details
+ *      Source: https://github.com/Erriez/ArduinoLibrariesAndSketches
  */
 
 #include <Wire.h>
