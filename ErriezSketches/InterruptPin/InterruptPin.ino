@@ -22,20 +22,40 @@
  * SOFTWARE.
  */
 
-/* PIR (Passive Infrared Sensor) movement sensor example
- * https://github.com/Erriez/ArduinoLibrariesAndSketches
+/*!
+ * \file InterruptPin.ino
+ * \brief External interrupt example for Arduino
+ * \details 
+ *    Source: https://github.com/Erriez/ErriezArduinoLibrariesAndSketches
+ *    Doc:    https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/
  */
 
-// Connect the PIR pin to an Arduino DIGITAL pin
-#define PIR_PIN   2
+// Uno, Nano, Mini, other 328-based: pin D2 (InterruptPin) or D3 (INT1)
+// Leonardo: pin D7 (INT4)
+#if defined(__AVR_ATmega328P__)
+#define INT_PIN     2
+#elif defined(ARDUINO_AVR_LEONARDO)
+#define INT_PIN     7
+#else
+#define INT_PIN     0 // Unknown pin for this target
+#endif
 
-void setup()
+static bool ledPinState = LOW;
+
+
+void PinInterruptHandler()
 {
-    pinMode(PIR_PIN, INPUT_PULLUP);
+    ledPinState ^= HIGH;
+    digitalWrite(LED_BUILTIN, ledPinState);
+}
+
+void setup() 
+{
     pinMode(LED_BUILTIN, OUTPUT);
+    attachInterrupt(digitalPinToInterrupt(INT_PIN), PinInterruptHandler, FALLING);
 }
 
 void loop()
 {
-    digitalWrite(LED_BUILTIN, digitalRead(PIR_PIN));
+  
 }

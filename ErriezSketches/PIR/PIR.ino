@@ -22,19 +22,23 @@
  * SOFTWARE.
  */
 
-/* Blink example
- * https://github.com/Erriez/ArduinoLibrariesAndSketches
+/*!
+ * \file PIR.ino
+ * \brief PIR (Passive Infrared Sensor) movement sensor example
+ * \details
+ *      Source: https://github.com/Erriez/ArduinoLibrariesAndSketches
  */
+
+// Connect the PIR pin to an Arduino DIGITAL pin
+#define PIR_PIN   2
 
 void setup()
 {
+    pinMode(PIR_PIN, INPUT_PULLUP);
     pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
 {
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(1000);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(1000);
+    digitalWrite(LED_BUILTIN, digitalRead(PIR_PIN));
 }
