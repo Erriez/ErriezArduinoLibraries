@@ -64,6 +64,20 @@ LM35 analog temperature sensor library for Arduino.
 [![LM35](https://raw.githubusercontent.com/Erriez/ErriezLM35/master/extras/LM35_pins.png)](https://github.com/Erriez/ErriezLM35)
 
 
+### [Memory Usage](https://github.com/Erriez/ErriezMemoryUsage)  [![Build Status](https://travis-ci.org/Erriez/ErriezMemoryUsage.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMemoryUsage)
+
+Memory usage diagnostics library for Arduino.
+
+[![Memory Usage](https://raw.githubusercontent.com/Erriez/ErriezMemoryUsage/master/extras/ErriezMemoryUsage.png)](https://github.com/Erriez/ErriezMemoryUsage)
+
+
+### [RobotDyn 4-digit display](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay)  [![Build Status](https://travis-ci.org/Erriez/ErriezRobotDyn4DigitDisplay.svg?branch=master)](https://travis-ci.org/Erriez/ErriezRobotDyn4DigitDisplay)
+
+RobotDyn 4-digit display library for Arduino with a two-wire TM1637 LED controller.
+
+[![RobotDyn 4-digit display](https://raw.githubusercontent.com/Erriez/ErriezRobotDyn4DigitDisplay/master/extras/ErriezRobotDyn4DigitDisplay.png)](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay)
+
+
 ### [RobotDyn Keypad 3x4 with analog output](https://github.com/Erriez/ErriezRotaryEncoderFullStep)  [![Build Status](https://travis-ci.org/Erriez/ErriezRobotDynKeypad3x4Analog.svg?branch=master)](https://travis-ci.org/ErriezRobotDynKeypad3x4Analog)
 
 RobotDyn Keypad 3x4 with analog output library for Arduino.
