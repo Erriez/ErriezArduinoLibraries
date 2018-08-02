@@ -78,11 +78,11 @@ RobotDyn 4-digit display library for Arduino with a two-wire TM1637 LED controll
 [![RobotDyn 4-digit display](https://raw.githubusercontent.com/Erriez/ErriezRobotDyn4DigitDisplay/master/extras/ErriezRobotDyn4DigitDisplay.png)](https://github.com/Erriez/ErriezRobotDyn4DigitDisplay)
 
 
-### [RobotDyn Keypad 3x4 with analog output](https://github.com/Erriez/ErriezRotaryEncoderFullStep)  [![Build Status](https://travis-ci.org/Erriez/ErriezRobotDynKeypad3x4Analog.svg?branch=master)](https://travis-ci.org/ErriezRobotDynKeypad3x4Analog)
+### [RobotDyn Keypad 3x4 with analog output](https://github.com/Erriez/ErriezRobotDynKeypad3x4Analog)  [![Build Status](https://travis-ci.org/Erriez/ErriezRobotDynKeypad3x4Analog.svg?branch=master)](https://travis-ci.org/ErriezRobotDynKeypad3x4Analog)
 
 RobotDyn Keypad 3x4 with analog output library for Arduino.
 
-[![RobotDyn Keypad 3x4 Analog](https://raw.githubusercontent.com/Erriez/ErriezRobotDynKeypad3x4Analog/master/extras/RobotDynKeypad3x4Analog.png)](https://github.com/Erriez/ErriezRotaryEncoderFullStep)
+[![RobotDyn Keypad 3x4 Analog](https://raw.githubusercontent.com/Erriez/ErriezRobotDynKeypad3x4Analog/master/extras/RobotDynKeypad3x4Analog.png)](https://github.com/Erriez/ErriezRobotDynKeypad3x4Analog)
 
 
 ### [Rotary Encoder full step](https://github.com/Erriez/ErriezRotaryEncoderFullStep)  [![Build Status](https://travis-ci.org/Erriez/ErriezRotaryEncoderFullStep.svg?branch=master)](https://travis-ci.org/Erriez/ErriezRotaryEncoderFullStep)
@@ -103,7 +103,7 @@ RobotDyn Keypad 3x4 with analog output library for Arduino.
 
 A universal Serial Terminal library for Arduino to parse ASCII commands and arguments.
 
-[![Serial Terminal](https://raw.githubusercontent.com/Erriez/ErriezSerialTerminal/master/extras/ScreenshotSerialTerminal.png)](https://github.com/Erriez/ErriezSerial)
+[![Serial Terminal](https://raw.githubusercontent.com/Erriez/ErriezSerialTerminal/master/extras/ScreenshotSerialTerminal.png)](https://github.com/Erriez/ErriezSerialTerminal)
 
 
 ### [Timestamp](https://github.com/Erriez/ErriezTimestamp)  [![Build Status](https://travis-ci.org/Erriez/ErriezTimestamp.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTimestamp)
