@@ -44,8 +44,5 @@
 	path = libraries/ErriezRobotDyn4DigitDisplay
 	url = https://github.com/Erriez/ErriezRobotDyn4DigitDisplay.git
 [submodule "ErriezMemoryUsage"]
-	path = ErriezMemoryUsage
+	path = libraries/ErriezMemoryUsage
 	url = https://github.com/Erriez/ErriezMemoryUsage
-[submodule "ErriezRobotDyn4DigitDisplay"]
-	path = ErriezRobotDyn4DigitDisplay
-	url = https://github.com/Erriez/ErriezRobotDyn4DigitDisplay
