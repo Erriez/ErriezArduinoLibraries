@@ -1,0 +1,45 @@
+[submodule "libraries/ErriezTM1637"]
+	path = libraries/ErriezTM1637
+	url = https://github.com/Erriez/ErriezTM1637
+[submodule "libraries/ErriezLCDKeypadShield"]
+	path = libraries/ErriezLCDKeypadShield
+	url = https://github.com/Erriez/ErriezLCDKeypadShield.git
+[submodule "libraries/ErriezRobotDynKeypad3x4Analog"]
+	path = libraries/ErriezRobotDynKeypad3x4Analog
+	url = https://github.com/Erriez/ErriezRobotDynKeypad3x4Analog.git
+[submodule "libraries/ErriezRotaryEncoderHalfStep"]
+	path = libraries/ErriezRotaryEncoderHalfStep
+	url = https://github.com/Erriez/ErriezRotaryEncoderHalfStep.git
+[submodule "libraries/ErriezRotaryEncoderFullStep"]
+	path = libraries/ErriezRotaryEncoderFullStep
+	url = https://github.com/Erriez/ErriezRotaryEncoderFullStep.git
+[submodule "libraries/ErriezSerialTerminal"]
+	path = libraries/ErriezSerialTerminal
+	url = https://github.com/Erriez/ErriezSerialTerminal.git
+[submodule "libraries/ErriezTimestamp"]
+	path = libraries/ErriezTimestamp
+	url = https://github.com/Erriez/ErriezTimestamp.git
+[submodule "libraries/ErriezLKM1638"]
+	path = libraries/ErriezLKM1638
+	url = https://github.com/Erriez/ErriezLKM1638.git
+[submodule "libraries/ErriezDS1302"]
+	path = libraries/ErriezDS1302
+	url = https://github.com/Erriez/ErriezDS1302.git
+[submodule "libraries/ErriezTM1638"]
+	path = libraries/ErriezTM1638
+	url = https://github.com/Erriez/ErriezTM1638.git
+[submodule "libraries/ErriezBH1750"]
+	path = libraries/ErriezBH1750
+	url = https://github.com/Erriez/ErriezBH1750.git
+[submodule "libraries/ErriezDHT22"]
+	path = libraries/ErriezDHT22
+	url = https://github.com/Erriez/ErriezDHT22.git
+[submodule "libraries/ErriezLM35"]
+	path = libraries/ErriezLM35
+	url = https://github.com/Erriez/ErriezLM35.git
+[submodule "libraries/ErriezDS3231"]
+	path = libraries/ErriezDS3231
+	url = https://github.com/Erriez/ErriezDS3231.git
+[submodule "libraries/ErriezRobotDyn4DigitDisplay"]
+	path = libraries/ErriezRobotDyn4DigitDisplay
+	url = https://github.com/Erriez/ErriezRobotDyn4DigitDisplay.git

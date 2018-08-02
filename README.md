@@ -2,45 +2,25 @@
 
 Erriez Arduino libraries and sketches contains examples and optimized libraries for Arduino, tested on a various amount of hardware.
 
-Please refer to the [Wiki documentation](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki) how to use the libraries or follow the instructions in the README.md files of the libraries.
 
+### Installation using GIT
 
-### Install Erriez Libraries using GIT
-
-1. Start the Arduino IDE and click ```Sketch | Preferences```:
-2. Copy the path in the ```Sketchbook location``` edit box, for example ```C:\Users\User\Documents\Arduino``` or ```/home/user/Arduino```.
-3. Open a command prompt and type the following commands:
+1. Open a command prompt and type the following commands:
 
 ```
-# Go to the copied Sketchbook location directory and replace <Sketchbook location> with the copied path:
-# cd <Sketchbook location>
-# For example on Windows:
-cd C:\Users\%USERNAME%\Documents\Arduino
-# For example on Linux:
-cd ~/Arduino
-
+mkdir Arduino
 git clone https://github.com/Erriez/ErriezArduinoLibrariesAndSketches.git
-
-# Clone projects into libraries directory
-# For example on Windows: C:\Users\%USERNAME%\Documents\Arduino\libraries
-# For example on Linux: ~/Arduino/libraries
-cd libraries
-git clone https://github.com/Erriez/ErriezBH1750.git
-git clone https://github.com/Erriez/ErriezDHT22.git
-git clone https://github.com/Erriez/ErriezDS3231.git
-git clone https://github.com/Erriez/ErriezLCDKeypadShield.git
-git clone https://github.com/Erriez/ErriezLKM1638.git
-git clone https://github.com/Erriez/ErriezLM35.git
-git clone https://github.com/Erriez/ErriezRobotDynKeypad3x4Analog.git
-git clone https://github.com/Erriez/ErriezRotaryEncoderFullStep.git
-git clone https://github.com/Erriez/ErriezRotaryEncoderHalfStep.git
-git clone https://github.com/Erriez/ErriezTimestamp.git
-git clone https://github.com/Erriez/ErriezTM1637.git
-git clone https://github.com/Erriez/ErriezTM1638.git
+cd ErriezArduinoLibrariesAndSketches
+git submodule update --init
 ```
 
+2. Start the Arduino IDE and click ```Sketch | Preferences``` | Set ```Sketchbook location``` to the ```ErriezArduinoLibrariesAndSketches``` directory.
 3. Restart the Arduino IDE.
 
+
+### Erriez libraries
+
+Please refer to the [Wiki documentation](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki) how to use the libraries or follow the instructions in the README.md files of the libraries.
 
 ### [BH1750](https://github.com/Erriez/ErriezBH1750)  [![Build Status](https://travis-ci.org/Erriez/ErriezBH1750.svg?branch=master)](https://travis-ci.org/Erriez/ErriezBH1750)
 
