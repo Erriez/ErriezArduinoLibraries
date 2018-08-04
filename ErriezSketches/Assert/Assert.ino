@@ -23,7 +23,6 @@
  */
 
 /*!
- * \file Assert.ino
  * \brief Assertion example
  * \details
  *      This is an assertion example prints the filename and line number of the error. Output:

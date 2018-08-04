@@ -23,7 +23,6 @@
  */
 
 /*!
- * \file InterruptPin.ino
  * \brief External interrupt example for Arduino
  * \details 
  *    Source: https://github.com/Erriez/ErriezArduinoLibrariesAndSketches

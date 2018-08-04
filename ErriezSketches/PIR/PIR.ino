@@ -23,7 +23,6 @@
  */
 
 /*!
- * \file PIR.ino
  * \brief PIR (Passive Infrared Sensor) movement sensor example
  * \details
  *      Source: https://github.com/Erriez/ArduinoLibrariesAndSketches

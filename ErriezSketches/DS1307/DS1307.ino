@@ -23,7 +23,6 @@
  */
 
 /*!
- * \file DS1307
  * \brief DS1307 I2C RTC example
  * \details
  *      Source: https://github.com/Erriez/ArduinoLibrariesAndSketches

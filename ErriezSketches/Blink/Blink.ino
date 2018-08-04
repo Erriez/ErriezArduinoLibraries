@@ -23,7 +23,6 @@
  */
 
 /*!
- * \file Blink.ino
  * \brief Blink example
  * \details
  *      Source: https://github.com/Erriez/ArduinoLibrariesAndSketches
