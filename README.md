@@ -7,7 +7,7 @@ Erriez Arduino libraries and sketches contains examples and optimized libraries 
 
 1. Open a command prompt and type the following commands:
 
-```
+```sh
 mkdir Arduino
 git clone https://github.com/Erriez/ErriezArduinoLibrariesAndSketches.git
 cd ErriezArduinoLibrariesAndSketches
@@ -17,6 +17,12 @@ git submodule update --init
 2. Start the Arduino IDE and click ```Sketch | Preferences``` | Set ```Sketchbook location``` to the ```ErriezArduinoLibrariesAndSketches``` directory.
 3. Restart the Arduino IDE.
 
+
+### Update sources using GIT
+
+```sh
+git submodule update --recursive --remote
+```
 
 ### Erriez libraries
 
