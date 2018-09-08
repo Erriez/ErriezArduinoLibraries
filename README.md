@@ -13,6 +13,13 @@ I2C high-precision light sensor.
 [![BH1750](https://raw.githubusercontent.com/Erriez/ErriezBH1750/master/extras/BH1750.png)](https://github.com/Erriez/ErriezBH1750)
 
 
+### [CRC32](https://github.com/Erriez/ErriezCRC32)  [![Build Status](https://travis-ci.org/Erriez/ErriezCRC32.svg?branch=master)](https://travis-ci.org/Erriez/ErriezCRC32)
+
+Target independent, flash and RAM size optimized CRC32 library for Arduino without CRC tables.
+
+[![CRC32](https://raw.githubusercontent.com/Erriez/ErriezCRC32/master/extras/CRC32.png)](https://github.com/Erriez/ErriezCRC32)
+
+
 ### [DHT22](https://github.com/Erriez/ErriezDHT22)  [![Build Status](https://travis-ci.org/Erriez/ErriezDHT22.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDHT22)
 
 One-wire temperature and humidity sensor with high precision.
