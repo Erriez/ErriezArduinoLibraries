@@ -22,6 +22,14 @@
  * SOFTWARE.
  */
 
+/*!
+ * \brief LED strip with PIR example for Arduino
+ * \details
+ *    Required library: https://github.com/Erriez/ErriezArduinoLibrariesAndSketches
+ *    Required hardware: Arduino Pro or Pro Mini 3.3V 8MHz
+ */
+
+
 #include <LowPower.h>
 
 // Pin defines
@@ -75,15 +83,11 @@ void loop()
             pirInterruptTicks = 10 / SLEEP_TIME;
         } else if (vcc < 3000) {
             //Serial.println(F("LOW BATTERY"));
-            ledPWMTarget = 10;
+            ledPWMTarget = 5;
             pirInterruptTicks = 10 / SLEEP_TIME;
-        } else if (ledPWMTarget == 0) {
-            ledPWMCurrent = 5;
-            ledPWMTarget = 50;
-            pirInterruptTicks = 20000 / SLEEP_TIME;
         } else {
             ledPWMTarget = 200;
-            pirInterruptTicks = 15000 / SLEEP_TIME;
+            pirInterruptTicks = 20000 / SLEEP_TIME;
         }
 
         pirInterrupt = false;
@@ -93,23 +97,34 @@ void loop()
         pirInterruptTicks--;
     }
 
-    if (pirInterruptTicks == 0) {
-        if (ledPWMTarget == 0) {
-            // pass
-        } else if (ledPWMTarget >= 200) {
-            ledPWMTarget = 10;
-            pirInterruptTicks = 15000 / SLEEP_TIME;
+    if ((pirInterruptTicks == 0) && (ledPWMTarget)) {
+        ledPWMTarget = 0;
+        pirInterruptTicks = 15000 / SLEEP_TIME;
+    }
+
+    if (ledPWMTarget > ledPWMCurrent) {
+        if ((ledPWMTarget - ledPWMCurrent) > 40) {
+            ledPWMCurrent += 3;
         } else {
-            ledPWMTarget = 0;
-            pirInterruptTicks = 10 / SLEEP_TIME;
+            ledPWMCurrent++;
+        }
+    } else if (ledPWMTarget < ledPWMCurrent) {
+        if ((ledPWMCurrent - ledPWMTarget) > 75) {
+            ledPWMCurrent -= 3;
+        } else if ((ledPWMCurrent - ledPWMTarget) > 50) {
+            ledPWMCurrent -= 2;
+        } else {
+            ledPWMCurrent--;
+            if (ledPWMCurrent == 15) {
+                delay(6000);
+            }
         }
     }
 
-    handleLight();
+    analogWrite(PWM_PIN, ledPWMCurrent);
 
     // Serial.println(pirInterruptTicks);
     // Serial.println(ledPWMTarget);
-    Serial.flush();
 
     if (ledPWMTarget == 0) {
         digitalWrite(LED_BUILTIN, LOW);
@@ -118,20 +133,10 @@ void loop()
     if (ledPWMCurrent) {
         delay(SLEEP_TIME);
     } else {
-        //LowPower.powerDown(SLEEP_120MS, ADC_OFF, BOD_ON);
+        // Serial.flush();
+        // LowPower.powerDown(SLEEP_120MS, ADC_OFF, BOD_ON);
         LowPower.powerDown(SLEEP_FOREVER, ADC_OFF, BOD_ON);
     }
-}
-
-void handleLight()
-{
-    if (ledPWMTarget > ledPWMCurrent) {
-        ledPWMCurrent++;
-    } else if (ledPWMTarget < ledPWMCurrent) {
-        ledPWMCurrent--;
-    }
-
-    analogWrite(PWM_PIN, ledPWMCurrent);
 }
 
 uint16_t readVcc() 
@@ -162,3 +167,4 @@ uint16_t readVcc()
     result = 1125300L / result; // Calculate Vcc (in mV); 1125300 = 1.1*1023*1000
     return result; // Vcc in millivolts
 }
+
