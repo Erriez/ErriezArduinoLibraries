@@ -6,6 +6,13 @@ Erriez Arduino libraries and sketches contains examples and optimized libraries 
 
 Please refer to the [Wiki documentation](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki) how to use the libraries or follow the instructions in the README.md files of the libraries.
 
+### [MCP23017](https://github.com/Erriez/ErriezMCP23017) [![Build Status](https://travis-ci.org/Erriez/ErriezMCP23017.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMCP23017)
+
+16-pin I2C IO expander with interrupt support.
+
+[![MCP23017](https://raw.githubusercontent.com/Erriez/ErriezMCP23017/master/extras/MCP23017-pins.png)](https://github.com/Erriez/ErriezMCP23017)
+
+
 ### [BH1750](https://github.com/Erriez/ErriezBH1750)  [![Build Status](https://travis-ci.org/Erriez/ErriezBH1750.svg?branch=master)](https://travis-ci.org/Erriez/ErriezBH1750)
 
 I2C high-precision light sensor.
