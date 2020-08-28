@@ -49,3 +49,6 @@
 [submodule "libraries/ErriezCRC32"]
 	path = libraries/ErriezCRC32
 	url = https://github.com/Erriez/ErriezCRC32.git
+[submodule "ErriezMCP23017"]
+	path = ErriezMCP23017
+	url = https://github.com/Erriez/ErriezMCP23017
