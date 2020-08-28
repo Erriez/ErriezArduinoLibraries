@@ -1,0 +1,74 @@
+#######################################
+# Syntax Coloring Map For Erriez MCP23017 library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ErriezMCP23017	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+
+pinMode	KEYWORD2
+digitalWrite	KEYWORD2
+digitalRead	KEYWORD2
+
+getPortDirection	KEYWORD2
+setPortDirection	KEYWORD2
+
+getPortPullup	KEYWORD2
+setPortPullup	KEYWORD2
+
+pinRead	KEYWORD2
+pinWrite	KEYWORD2
+pinToggle	KEYWORD2
+
+portRead	KEYWORD2
+portWrite	KEYWORD2
+portToggle	KEYWORD2
+portMask	KEYWORD2
+
+setInterruptPolarityINTA	KEYWORD2
+getPortInterruptMask	KEYWORD2
+setPortInterruptEnable	KEYWORD2
+setPortInterruptDisable	KEYWORD2
+getPortIntertuptStatus	KEYWORD2
+
+getI2CStatus	KEYWORD2
+
+dumpRegisters	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+mcp	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MCP23017_I2C_ADDRESS	KEYWORD2
+
+MCP_INT_CHANGE	KEYWORD2
+MCP_INT_LEVEL_HIGH	KEYWORD2
+MCP_INT_LEVEL_LOW	KEYWORD2
+
+MCP23017_MASK_ALL_PINS	KEYWORD2
+
+MCP23017_REG_IODIR	KEYWORD2
+MCP23017_REG_IPOL	KEYWORD2
+MCP23017_REG_GPINTEN	KEYWORD2
+MCP23017_REG_DEFVAL	KEYWORD2
+MCP23017_REG_INTCON	KEYWORD2
+MCP23017_REG_IOCON	KEYWORD2
+MCP23017_REG_GPPU	KEYWORD2
+MCP23017_REG_INTF	KEYWORD2
+MCP23017_REG_INTCAP	KEYWORD2
+MCP23017_REG_GPIO	KEYWORD2
+MCP23017_REG_OLAT	KEYWORD2
