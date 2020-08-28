@@ -6,6 +6,16 @@ Erriez Arduino libraries and sketches contains examples and optimized libraries 
 
 Please refer to the [Wiki documentation](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki) how to use the libraries or follow the instructions in the README.md files of the libraries.
 
+Installation with Git from the commandline:
+```
+git clone https://github.com/Erriez/ErriezArduinoLibrariesAndSketches.git
+cd ErriezArduinoLibrariesAndSketches
+git submodule init --recursive
+git submodule update --recursive
+
+Move the libraries/* to your Arduino/libraries/ directory
+```
+
 ### [MCP23017](https://github.com/Erriez/ErriezMCP23017) [![Build Status](https://travis-ci.org/Erriez/ErriezMCP23017.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMCP23017)
 
 16-pin I2C IO expander with interrupt support.
