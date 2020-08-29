@@ -16,6 +16,13 @@ git submodule update --recursive
 Move the libraries/* to your Arduino/libraries/ directory
 ```
 
+### [INA219](https://github.com/Erriez/ErriezINA219) [![Build Status](https://travis-ci.org/Erriez/ErriezINA219.svg?branch=master)](https://travis-ci.org/Erriez/ErriezINA219)
+
+INA219 I2C/SMB Voltage/Current/Power Monitor.
+
+[![INA219](https://raw.githubusercontent.com/Erriez/ErriezINA219/master/extras/INA219.png)](https://github.com/Erriez/ErriezINA219)
+
+
 ### [MCP23017](https://github.com/Erriez/ErriezMCP23017) [![Build Status](https://travis-ci.org/Erriez/ErriezMCP23017.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMCP23017)
 
 16-pin I2C IO expander with interrupt support.
