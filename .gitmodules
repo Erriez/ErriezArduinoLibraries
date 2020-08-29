@@ -55,3 +55,6 @@
 [submodule "libraries/ErriezPrintf"]
 	path = libraries/ErriezPrintf
 	url = https://github.com/Erriez/ErriezPrintf
+[submodule "libraries/ErriezINA219"]
+	path = libraries/ErriezINA219
+	url = https://github.com/Erriez/ErriezINA219
