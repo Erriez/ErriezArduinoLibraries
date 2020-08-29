@@ -58,3 +58,6 @@
 [submodule "libraries/ErriezINA219"]
 	path = libraries/ErriezINA219
 	url = https://github.com/Erriez/ErriezINA219
+[submodule "libraries/ErriezTTP229TouchKeypad"]
+	path = libraries/ErriezTTP229TouchKeypad
+	url = https://github.com/Erriez/ErriezTTP229TouchKeypad
