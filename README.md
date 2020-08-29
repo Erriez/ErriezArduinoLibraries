@@ -16,28 +16,28 @@ git submodule update --recursive
 Move the libraries/* to your Arduino/libraries/ directory
 ```
 
-### [INA219](https://github.com/Erriez/ErriezINA219) [![Build Status](https://travis-ci.org/Erriez/ErriezINA219.svg?branch=master)](https://travis-ci.org/Erriez/ErriezINA219)
+### [INA219 DC Power Sensor](https://github.com/Erriez/ErriezINA219) [![Build Status](https://travis-ci.org/Erriez/ErriezINA219.svg?branch=master)](https://travis-ci.org/Erriez/ErriezINA219)
 
 INA219 I2C/SMB DC Voltage/Current/Power sensor.
 
 [![INA219](https://raw.githubusercontent.com/Erriez/ErriezINA219/master/extras/INA219.png)](https://github.com/Erriez/ErriezINA219)
 
 
-### [TTP229](https://github.com/Erriez/ErriezTTP229TouchKeypad) [![Build Status](https://travis-ci.org/Erriez/ErriezTTP229TouchKeypad.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTTP229TouchKeypad)
+### [TTP229 Touch Keypad](https://github.com/Erriez/ErriezTTP229TouchKeypad) [![Build Status](https://travis-ci.org/Erriez/ErriezTTP229TouchKeypad.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTTP229TouchKeypad)
 
 TTP229 touch sensitive 4x4 keypad with interrupt support. Available in single 16 keys or dual 32 keys.
 
 [![TTP229](https://raw.githubusercontent.com/Erriez/ErriezTTP229TouchKeypad/master/extras/TTP229TouchKeypad4x4.png)](https://github.com/Erriez/ErriezTTP229TouchKeypad)
 
 
-### [MCP23017](https://github.com/Erriez/ErriezMCP23017) [![Build Status](https://travis-ci.org/Erriez/ErriezMCP23017.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMCP23017)
+### [MCP23017 16-pins I2C IO-expander](https://github.com/Erriez/ErriezMCP23017) [![Build Status](https://travis-ci.org/Erriez/ErriezMCP23017.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMCP23017)
 
 16-pin I2C IO expander with interrupt support.
 
 [![MCP23017](https://raw.githubusercontent.com/Erriez/ErriezMCP23017/master/extras/MCP23017-pins.png)](https://github.com/Erriez/ErriezMCP23017)
 
 
-### [BH1750](https://github.com/Erriez/ErriezBH1750)  [![Build Status](https://travis-ci.org/Erriez/ErriezBH1750.svg?branch=master)](https://travis-ci.org/Erriez/ErriezBH1750)
+### [BH1750 Light Sensor](https://github.com/Erriez/ErriezBH1750)  [![Build Status](https://travis-ci.org/Erriez/ErriezBH1750.svg?branch=master)](https://travis-ci.org/Erriez/ErriezBH1750)
 
 I2C high-precision light sensor.
 
@@ -51,18 +51,11 @@ Target independent, flash and RAM size optimized CRC32 library for Arduino witho
 [![CRC32](https://raw.githubusercontent.com/Erriez/ErriezCRC32/master/extras/CRC32.png)](https://github.com/Erriez/ErriezCRC32)
 
 
-### [DHT22](https://github.com/Erriez/ErriezDHT22)  [![Build Status](https://travis-ci.org/Erriez/ErriezDHT22.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDHT22)
+### [DHT22 Temperature/Humidity Sensor](https://github.com/Erriez/ErriezDHT22)  [![Build Status](https://travis-ci.org/Erriez/ErriezDHT22.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDHT22)
 
 One-wire temperature and humidity sensor with high precision.
 
 [![DHT22](https://raw.githubusercontent.com/Erriez/ErriezDHT22/master/extras/AM2302_DHT22_sensor.png)](https://github.com/Erriez/ErriezDHT22)
-
-
-### [DS1302 RTC (Real Time Clock)](https://github.com/Erriez/ErriezDS1302)  [![Build Status](https://travis-ci.org/Erriez/ErriezDS1302.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDS1302)
-
-DS1302 inaccurate RTC (Real Time Clock).
-
-[![DS1302 RTC (Real Time Clock)](https://raw.githubusercontent.com/Erriez/ErriezDS1302/master/extras/DS1302.png)](https://github.com/Erriez/ErriezDS1302)
 
 
 ### [DS3231 high accurate I2C RTC (Real Time Clock)](https://github.com/Erriez/ErriezDS3231)  [![Build Status](https://travis-ci.org/Erriez/ErriezDS3231.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDS3231)
@@ -72,6 +65,13 @@ DS3231 High accurate RTC (Real Time Clock).
 [![DS3231 RTC (Real Time Clock)](https://raw.githubusercontent.com/Erriez/ErriezDS3231/master/extras/DS3231.png)](https://github.com/Erriez/ErriezDS3231)
 
 
+### [DS1302 RTC (Real Time Clock)](https://github.com/Erriez/ErriezDS1302)  [![Build Status](https://travis-ci.org/Erriez/ErriezDS1302.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDS1302)
+
+DS1302 inaccurate RTC (Real Time Clock).
+
+[![DS1302 RTC (Real Time Clock)](https://raw.githubusercontent.com/Erriez/ErriezDS1302/master/extras/DS1302.png)](https://github.com/Erriez/ErriezDS1302)
+
+
 ### [LCD Keypad Shield](https://github.com/Erriez/ErriezLCDKeypadShield)  [![Build Status](https://travis-ci.org/Erriez/ErriezLCDKeypadShield.svg?branch=master)](https://travis-ci.org/Erriez/ErriezLCDKeypadShield)
 
 2x16 character and 5 buttons LCD shield for Arduino.
@@ -79,7 +79,7 @@ DS3231 High accurate RTC (Real Time Clock).
 [![LCDKeypadShield](https://raw.githubusercontent.com/Erriez/ErriezLCDKeypadShield/master/extras/LCDKeypadShield_board.png)](https://github.com/Erriez/ErriezLCDKeypadShield)
 
 
-### [LM35](https://github.com/Erriez/ErriezLM35)  [![Build Status](https://travis-ci.org/Erriez/ErriezLM35.svg?branch=master)](https://travis-ci.org/Erriez/ErriezLM35)
+### [LM35 Analog Temperature Sensor](https://github.com/Erriez/ErriezLM35)  [![Build Status](https://travis-ci.org/Erriez/ErriezLM35.svg?branch=master)](https://travis-ci.org/Erriez/ErriezLM35)
 
 LM35 analog temperature sensor library for Arduino.
 
@@ -135,14 +135,14 @@ Timestamp library to measure execution duration, useful for benchmarks.
 [![Timestamp](https://raw.githubusercontent.com/Erriez/ErriezTimestamp/master/extras/timestamp.png)](https://github.com/Erriez/ErriezTimestamp)
 
 
-### [TM1637](https://github.com/Erriez/ErriezTM1637)  [![Build Status](https://travis-ci.org/Erriez/ErriezTM1637.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTM1637)
+### [TM1637 Key/LED driver](https://github.com/Erriez/ErriezTM1637)  [![Build Status](https://travis-ci.org/Erriez/ErriezTM1637.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTM1637)
 
 2-wire 6x8 LED's and 8x2 key-scan controller.
 
 [![TM1637](https://raw.githubusercontent.com/Erriez/ErriezTM1637/master/extras/TM1637_pins.jpg)](https://github.com/Erriez/ErriezTM1637)
 
 
-### [TM1638](https://github.com/Erriez/ErriezTM1638)  [![Build Status](https://travis-ci.org/Erriez/ErriezTM1638.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTM1638)
+### [TM1638 Key/LED driver](https://github.com/Erriez/ErriezTM1638)  [![Build Status](https://travis-ci.org/Erriez/ErriezTM1638.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTM1638)
 
 3-wire 10x8 LED's and 8x3 key-scan controller.
 
