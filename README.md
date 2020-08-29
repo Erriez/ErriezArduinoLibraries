@@ -18,7 +18,7 @@ Move the libraries/* to your Arduino/libraries/ directory
 
 ### [INA219](https://github.com/Erriez/ErriezINA219) [![Build Status](https://travis-ci.org/Erriez/ErriezINA219.svg?branch=master)](https://travis-ci.org/Erriez/ErriezINA219)
 
-INA219 I2C/SMB Voltage/Current/Power Monitor.
+INA219 I2C/SMB DC Voltage/Current/Power sensor.
 
 [![INA219](https://raw.githubusercontent.com/Erriez/ErriezINA219/master/extras/INA219.png)](https://github.com/Erriez/ErriezINA219)
 
