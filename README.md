@@ -141,3 +141,7 @@ Timestamp library to measure execution duration, useful for benchmarks.
 
 [![JY-MCU JY-LKM1638 board](https://raw.githubusercontent.com/Erriez/ErriezLKM1638/master/extras/LKM1638_board.jpg)](https://github.com/Erriez/ErriezLKM1638)
 
+
+### [printf for AVR](https://github.com/Erriez/ErriezPrintf)  [![Build Status](https://travis-ci.org/Erriez/ErriezPrintf.svg?branch=master)](https://travis-ci.org/Erriez/ErriezPrintf)
+
+printf() library for Arduino AVR targets.
