@@ -23,6 +23,13 @@ INA219 I2C/SMB DC Voltage/Current/Power sensor.
 [![INA219](https://raw.githubusercontent.com/Erriez/ErriezINA219/master/extras/INA219.png)](https://github.com/Erriez/ErriezINA219)
 
 
+### [TTP229](https://github.com/Erriez/ErriezTTP229TouchKeypad) [![Build Status](https://travis-ci.org/Erriez/ErriezTTP229TouchKeypad.svg?branch=master)](https://travis-ci.org/Erriez/ErriezTTP229TouchKeypad)
+
+TTP229 touch sensitive 4x4 keypad with interrupt support. Available in single 16 keys or dual 32 keys.
+
+[![TTP229](https://raw.githubusercontent.com/Erriez/ErriezTTP229TouchKeypad/master/extras/TTP229TouchKeypad4x4.png)](https://github.com/Erriez/ErriezTTP229TouchKeypad)
+
+
 ### [MCP23017](https://github.com/Erriez/ErriezMCP23017) [![Build Status](https://travis-ci.org/Erriez/ErriezMCP23017.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMCP23017)
 
 16-pin I2C IO expander with interrupt support.
