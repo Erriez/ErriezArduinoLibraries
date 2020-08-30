@@ -61,3 +61,6 @@
 [submodule "libraries/ErriezTTP229TouchKeypad"]
 	path = libraries/ErriezTTP229TouchKeypad
 	url = https://github.com/Erriez/ErriezTTP229TouchKeypad
+[submodule "libraries/ErriezMHZ19B"]
+	path = libraries/ErriezMHZ19B
+	url = https://github.com/Erriez/ErriezMHZ19B
