@@ -18,9 +18,16 @@ Move the libraries/* to your Arduino/libraries/ directory
 
 ### [MH-Z19B CO2 Sensor](https://github.com/Erriez/ErriezMHZ19B) [![Build Status](https://travis-ci.org/Erriez/ErriezMHZ19B.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMHZ19B)
 
-This is a MH-Z19B CO2 sensor library for Arduino with a small footprint. Hardware and software serial supported.
+MH-Z19B CO2 sensor library for Arduino with a small footprint. Hardware and software serial supported.
 
 [![ErriezMHZ19B](https://raw.githubusercontent.com/Erriez/ErriezMHZ19B/master/extras/MHZ19B.png)](https://github.com/Erriez/ErriezMHZ19B)
+
+
+### [BMP280 / BME280 Sensor](https://github.com/Erriez/ErriezBMX280) [![Build Status](https://travis-ci.org/Erriez/ErriezBMX280.svg?branch=master)](https://travis-ci.org/Erriez/ErriezBMX280)
+
+BMP280/BME280 temperature / pressure / humidity sensor library for Arduino with I2C interface.
+
+[![ErriezBMX280](https://raw.githubusercontent.com/Erriez/ErriezBMX280/master/extras/BMX280.png)](https://github.com/Erriez/ErriezBMX280)
 
 
 ### [INA219 DC Power Sensor](https://github.com/Erriez/ErriezINA219) [![Build Status](https://travis-ci.org/Erriez/ErriezINA219.svg?branch=master)](https://travis-ci.org/Erriez/ErriezINA219)
