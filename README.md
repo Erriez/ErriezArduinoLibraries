@@ -79,9 +79,16 @@ DS3231 High accurate RTC (Real Time Clock).
 [![DS3231 RTC (Real Time Clock)](https://raw.githubusercontent.com/Erriez/ErriezDS3231/master/extras/DS3231.png)](https://github.com/Erriez/ErriezDS3231)
 
 
+### [DS1307 RTC (Real Time Clock)](https://github.com/Erriez/ErriezDS1307)  [![Build Status](https://travis-ci.org/Erriez/ErriezDS1307.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDS1307)
+
+DS1307 RTC (Real Time Clock).
+
+[![DS1307 RTC (Real Time Clock)](https://raw.githubusercontent.com/Erriez/ErriezDS1307/master/extras/DS1307.png)](https://github.com/Erriez/ErriezDS1302)
+
+
 ### [DS1302 RTC (Real Time Clock)](https://github.com/Erriez/ErriezDS1302)  [![Build Status](https://travis-ci.org/Erriez/ErriezDS1302.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDS1302)
 
-DS1302 inaccurate RTC (Real Time Clock).
+DS1302 RTC (Real Time Clock).
 
 [![DS1302 RTC (Real Time Clock)](https://raw.githubusercontent.com/Erriez/ErriezDS1302/master/extras/DS1302.png)](https://github.com/Erriez/ErriezDS1302)
 
