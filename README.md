@@ -4,12 +4,12 @@ Erriez Arduino libraries and sketches contains examples and optimized libraries 
 
 ## Installation
 
-Please refer to the [Wiki documentation](https://github.com/Erriez/ErriezArduinoLibrariesAndSketches/wiki) how to use the libraries or follow the instructions in the README.md files of the libraries.
+Please refer to the [Wiki documentation](https://github.com/Erriez/ErriezArduinoLibraries/wiki) how to use the libraries or follow the instructions in the README.md files of the libraries.
 
 Installation with Git from the commandline:
 ```
-git clone https://github.com/Erriez/ErriezArduinoLibrariesAndSketches.git
-cd ErriezArduinoLibrariesAndSketches
+git clone https://github.com/Erriez/ErriezArduinoLibraries.git
+cd ErriezArduinoLibraries
 git submodule init --recursive
 git submodule update --recursive
 
