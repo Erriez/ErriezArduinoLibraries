@@ -67,3 +67,6 @@
 [submodule "libraries/ErriezBMX280"]
 	path = libraries/ErriezBMX280
 	url = https://github.com/Erriez/ErriezBMX280
+[submodule "libraries/ErriezDS1307"]
+	path = libraries/ErriezDS1307
+	url = https://github.com/Erriez/ErriezDS1307
