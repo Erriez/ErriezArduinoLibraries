@@ -1,6 +1,7 @@
-# Erriez Arduino libraries and sketches
+# Erriez Arduino libraries and examples
 
-Erriez Arduino libraries and sketches contains examples and optimized libraries for Arduino, tested on a various amount of hardware.
+Erriez Arduino libraries and sketches contains examples and libraries for Arduino, tested on a various amount of hardware.
+
 
 ## Installation
 
@@ -15,6 +16,12 @@ git submodule update --recursive
 
 Move the libraries/* to your Arduino/libraries/ directory
 ```
+
+
+### [Arduino Examples](https://github.com/Erriez/ErriezArduinoExamples) [![Build Status](https://travis-ci.org/Erriez/ErriezArduinoExamples.svg?branch=master)](https://travis-ci.org/Erriez/ErriezArduinoExamples)
+
+Arduino examples and projects for several boards.
+
 
 ### [MH-Z19B CO2 Sensor](https://github.com/Erriez/ErriezMHZ19B) [![Build Status](https://travis-ci.org/Erriez/ErriezMHZ19B.svg?branch=master)](https://travis-ci.org/Erriez/ErriezMHZ19B)
 
@@ -56,6 +63,11 @@ TTP229 touch sensitive 4x4 keypad with interrupt support. Available in single 16
 I2C high-precision light sensor.
 
 [![BH1750](https://raw.githubusercontent.com/Erriez/ErriezBH1750/master/extras/BH1750.png)](https://github.com/Erriez/ErriezBH1750)
+
+
+### [HC-SR04](https://github.com/Erriez/ErriezHCSR04) [![Build Status](https://travis-ci.org/Erriez/ErriezHCSR04.svg?branch=master)](https://travis-ci.org/Erriez/ErriezHCSR04)
+
+HC-SR04 Ultrasonic Distance sensor. Measurement range: 2..2000cm +/-1cm.
 
 
 ### [CRC32](https://github.com/Erriez/ErriezCRC32)  [![Build Status](https://travis-ci.org/Erriez/ErriezCRC32.svg?branch=master)](https://travis-ci.org/Erriez/ErriezCRC32)

@@ -73,3 +73,6 @@
 [submodule "libraries/ErriezArduinoExamples"]
 	path = libraries/ErriezArduinoExamples
 	url = https://github.com/Erriez/ErriezArduinoExamples
+[submodule "libraries/ErriezHCSR04"]
+	path = libraries/ErriezHCSR04
+	url = https://github.com/Erriez/ErriezHCSR04
