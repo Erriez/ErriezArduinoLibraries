@@ -76,3 +76,6 @@
 [submodule "libraries/ErriezHCSR04"]
 	path = libraries/ErriezHCSR04
 	url = https://github.com/Erriez/ErriezHCSR04
+[submodule "libraries/ErriezOregonTHN128"]
+	path = libraries/ErriezOregonTHN128
+	url = https://github.com/Erriez/ErriezOregonTHN128

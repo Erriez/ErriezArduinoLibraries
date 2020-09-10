@@ -30,6 +30,13 @@ MH-Z19B CO2 sensor library for Arduino with a small footprint. Hardware and soft
 [![ErriezMHZ19B](https://raw.githubusercontent.com/Erriez/ErriezMHZ19B/master/extras/MHZ19B.png)](https://github.com/Erriez/ErriezMHZ19B)
 
 
+### [Oregon THN](https://github.com/Erriez/ErriezOregonTHN128) [![Build Status](https://travis-ci.org/Erriez/ErriezOregonTHN128.svg?branch=master)](https://travis-ci.org/Erriez/ErriezOregonTHN128)
+
+Oregon THN128 433MHz temperature sensor transmit/receive C library for Arduino.
+
+[![ErriezOregonTHN128](https://raw.githubusercontent.com/Erriez/ErriezOregonTHN128/master/extras/OregonTHN128.png)](https://github.com/Erriez/ErriezOregonTHN128)
+
+
 ### [BMP280 / BME280 Sensor](https://github.com/Erriez/ErriezBMX280) [![Build Status](https://travis-ci.org/Erriez/ErriezBMX280.svg?branch=master)](https://travis-ci.org/Erriez/ErriezBMX280)
 
 BMP280/BME280 temperature / pressure / humidity sensor library for Arduino with I2C interface.
