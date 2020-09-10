@@ -69,6 +69,8 @@ I2C high-precision light sensor.
 
 HC-SR04 Ultrasonic Distance sensor. Measurement range: 2..2000cm +/-1cm.
 
+[![HC-SR04](https://raw.githubusercontent.com/Erriez/ErriezHCSR04/master/extras/HC-SR04.png)](https://github.com/Erriez/ErriezHCSR04)
+
 
 ### [CRC32](https://github.com/Erriez/ErriezCRC32)  [![Build Status](https://travis-ci.org/Erriez/ErriezCRC32.svg?branch=master)](https://travis-ci.org/Erriez/ErriezCRC32)
 
