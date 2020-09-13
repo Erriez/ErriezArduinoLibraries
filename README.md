@@ -93,6 +93,11 @@ One-wire temperature and humidity sensor with high precision.
 [![DHT22](https://raw.githubusercontent.com/Erriez/ErriezDHT22/master/extras/AM2302_DHT22_sensor.png)](https://github.com/Erriez/ErriezDHT22)
 
 
+### [NTP (Network Time Protocol) client](https://github.com/Erriez/ErriezNTPClient) [![Build Status](https://travis-ci.org/Erriez/ErriezNTPClient.svg?branch=master)](https://travis-ci.org/Erriez/ErriezNTPClient)
+
+NTP client library for Arduino to get UNIX Epoch UTC time from time servers.
+
+
 ### [DS3231 high accurate I2C RTC (Real Time Clock)](https://github.com/Erriez/ErriezDS3231)  [![Build Status](https://travis-ci.org/Erriez/ErriezDS3231.svg?branch=master)](https://travis-ci.org/Erriez/ErriezDS3231)
 
 DS3231 High accurate RTC (Real Time Clock).
