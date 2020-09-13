@@ -80,5 +80,5 @@
 	path = libraries/ErriezOregonTHN128
 	url = https://github.com/Erriez/ErriezOregonTHN128
 [submodule "ErriezNTPClient"]
-	path = ErriezNTPClient
+	path = libraries/ErriezNTPClient
 	url = https://github.com/Erriez/ErriezNTPClient
