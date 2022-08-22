@@ -1,3 +1,7 @@
+[![Licence MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/Erriez/ErriezArduinoLibraries/blob/master/LICENSE)
+[![Language C/C++](https://img.shields.io/badge/language-C%2FC%2B%2B-informational)](https://github.com/Erriez/ErriezArduinoLibraries)
+[![Open issue](https://shields.io/github/issues-raw/Erriez/ErriezArduinoLibraries)](https://github.com/Erriez/ErriezArduinoLibraries/issues)
+
 # Erriez Arduino libraries and examples
 
 Erriez Arduino libraries and sketches contains examples and libraries for Arduino, tested on a various amount of hardware.
@@ -29,7 +33,7 @@ MH-Z19B CO2 sensor library for Arduino with a small footprint. Hardware and soft
 [![ErriezMHZ19B](https://raw.githubusercontent.com/Erriez/ErriezMHZ19B/master/extras/MHZ19B.png)](https://github.com/Erriez/ErriezMHZ19B)
 
 
-### [Oregon THN](https://github.com/Erriez/ErriezOregonTHN128)
+### [Oregon THN](https://github.com/Erriez/ErriezOregonTHN128) [![PlatformIO CI](https://github.com/Erriez/ErriezOregonTHN128/actions/workflows/actions.yml/badge.svg)](https://github.com/Erriez/ErriezOregonTHN128/actions/workflows/actions.yml)
 
 Oregon THN128 433MHz temperature sensor transmit/receive C library for Arduino.
 
